@@ -4,8 +4,24 @@ public class Recitation3 {
     public static void main(String[] argv)
     {
         Scanner scan = new Scanner(System.in);
+        double x = scan.nextDouble();
+        double y = scan.nextDouble();
 
-        // add your code here
+        System.out.println("Enter x: "+x);
+
+        System.out.println("Enter y: "+y);
+        Point q = new Point(14,12);
+        Point p = new Point(x,y);
+        Circle circle40 = new Circle(q,40.0);
+        Circle circle16 = new Circle(p,16.0);
+
+        if(circle16.intersects(circle40))
+        {
+            System.out.println("Circles intersect!");
+        }else
+        {
+            System.out.println("Circles do not intersect!");
+        }
 
         return;
     }
