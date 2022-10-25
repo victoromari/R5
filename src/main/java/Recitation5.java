@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Recitation3 {
+public class Recitation5 {
     public static void main(String[] argv)
     {
         Scanner scan = new Scanner(System.in);
